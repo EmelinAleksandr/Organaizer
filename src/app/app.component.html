@@ -1,0 +1,49 @@
+<header></header>
+
+<content>
+
+    <div class="btn_stand" (click)="open_form_new_stand()"><img style="width: 120px;" src="assets/plus.png" alt=""></div>
+
+    <div class="stand" *ngFor="let stand of stands; let i = index">
+        <div class="header">
+            <div class="caption_stand">
+                <input type="text" [(ngModel)]="stand.caption" *ngIf="stand.is_edit" (blur)="stand.is_edit = false" autofocus>
+                <span *ngIf="!stand.is_edit">{{stand.caption}}</span>
+            </div>
+
+            <div class="menu">
+                <img src="assets/menu.png">
+                
+                <ul class="sub_menu">
+                    <li (click)="focus_input(stand)">Изменить заголовок</li>
+                    <li (click)="remove_stand(i)">Удалить</li>
+                </ul>
+            </div>
+        </div>
+       
+
+        <div class="btn_add" (click)="open_form_new_task(stand)">Добавить <b>+</b></div>
+
+        <div class="task" *ngFor="let task of stand.tasks; let j = index">
+            <div class="checkbox">
+                <input type="checkbox" [(ngModel)]="task.is_execution">
+            </div>
+            <div class="subject" (dblclick)="edit_task(stand, task)">
+                <div class="caption" *ngIf="task.caption">{{task.caption}}</div>
+                <div class="description">{{task.description}}</div>
+                <div class="footer">
+                    <div class="date_execution">{{task.date_create | date: 'dd.MM.yyyy HH:mm'}}</div>
+                    <div class="date_execution">{{task.date_execution | date: 'dd.MM.yyyy HH:mm'}}</div>
+                </div>
+            </div>
+            
+            <div class="remove">
+                <img src="assets/trush.png" alt="" (click)="remove_task(stand, j)">
+            </div>
+        </div>
+    </div>
+</content>
+
+<footer></footer>
+
+<app-form [stand]="select_stand" (event_close)="handler_close()" [task]="select_task" class="form" *ngIf="is_open_form" [(close)]="is_open_form" [type_form]="type"></app-form>

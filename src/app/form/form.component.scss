@@ -1,0 +1,46 @@
+@import '../../styles.scss';
+
+.form {
+    background-color: white;
+    padding: 1rem;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: $mont;
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        div{
+            font-size: 20px;
+        }
+    }
+
+    .close{
+        font-weight: 600;
+        cursor: pointer;
+        color: grey;
+
+        &:hover{
+            color: #000000;
+        }
+    }
+
+    .input{
+        font-family: $robo;
+        width: 100%;
+        padding: 0.4rem 1rem;
+        border: solid 1px grey;
+        resize: vertical;
+        max-height: 300px;
+    }
+
+    .btn_submit{
+        cursor: pointer;
+        width: 100%;
+        background: #cecece;
+        padding: 1rem;
+        text-align: center;
+    }
+}

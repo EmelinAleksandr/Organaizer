@@ -1,0 +1,410 @@
+[
+    {
+        "caption": "Первая панель",
+        "tasks": [
+            {
+                "num": 1,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 2,
+                "is_execution": true,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 3,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 4,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            }
+        ]
+    },
+    {
+        "caption": "Вторая панель",
+        "tasks": [
+            {
+                "num": 1,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 2,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 3,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            }
+        ]
+    },
+    {
+        "caption": "Третья панель",
+        "tasks": [
+            {
+                "num": 1,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 2,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 3,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 4,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            }
+        ]
+    },
+    {
+        "caption": "Первая панель",
+        "tasks": [
+            {
+                "num": 1,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 2,
+                "is_execution": true,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 3,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 4,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            }
+        ]
+    },
+    {
+        "caption": "Вторая панель",
+        "tasks": [
+            {
+                "num": 1,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 2,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 3,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            }
+        ]
+    },
+    {
+        "caption": "Третья панель",
+        "tasks": [
+            {
+                "num": 1,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 2,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 3,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 4,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            }
+        ]
+    },
+    {
+        "caption": "Первая панель",
+        "tasks": [
+            {
+                "num": 1,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 2,
+                "is_execution": true,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 3,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 4,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            }
+        ]
+    },
+    {
+        "caption": "Вторая панель",
+        "tasks": [
+            {
+                "num": 1,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 2,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 3,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            }
+        ]
+    },
+    {
+        "caption": "Третья панель",
+        "tasks": [
+            {
+                "num": 1,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 2,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 3,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            },
+            {
+                "num": 4,
+                "is_execution": false,
+                "date_create": "10-28-2022",
+                "date_execution": "10-28-2022",
+                "date_fact_execution": "",
+                "date_edit": "",
+                "caption": "Разработка",
+                "description": "Разработать приложение",
+                "level_Exucut": -1
+            }
+        ]
+    }
+]

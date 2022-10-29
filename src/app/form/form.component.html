@@ -1,0 +1,26 @@
+<div class="form">
+    <div class="header">
+        <div>{{stand.caption}}</div>
+        <div class="close" (click)="_close()">X</div>
+    </div>
+    <div>
+        <div class="caption">Заголовок</div>
+        <div class="description">
+            <input class="input" type="text" [(ngModel)]="task.caption">
+        </div>
+    </div>
+    <div>
+        <div class="caption">Описание</div>
+        <div class="description">
+            <textarea class="input" cols="30" rows="10" [(ngModel)]="task.description"></textarea>
+        </div>
+    </div>
+    <div>
+        <div class="caption">Срок выполнения</div>
+        <div class="description">
+            <input type="datetime-local" [(ngModel)]="task.date_execution">
+        </div>
+    </div>
+    <div class="btn_submit" (click)="add()" *ngIf="type_form == 'stand'">Добавить</div>
+    <div class="btn_submit" (click)="_close()" *ngIf="type_form == 'task'">Закрыть</div>
+</div>

@@ -1,0 +1,183 @@
+@import '../styles.scss';
+
+content {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    .btn_stand {
+        align-self: center;
+        justify-content: center;
+        display: flex;
+        cursor: pointer;
+        padding: 32px;
+        width: 306px;
+    }
+
+    .stand {
+        background: #2693d3;
+        padding: 0.4rem 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 320px;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            font-family: $mont;
+
+            .menu {
+
+                &:hover {
+                    .sub_menu {
+                        height: 58px;
+                    }
+                }
+
+                .sub_menu {
+                    position: absolute;
+                    z-index: 1;
+                    height: 0;
+                    overflow: hidden;
+                    background: #ffffff;
+                    transition: 0.2s;
+
+                    li {
+                        cursor: pointer;
+                        padding: 0.5rem 1rem;
+
+                        &:hover {
+                            background: #e3e3e3;
+                        }
+                    }
+                }
+            }
+        }
+
+        .caption_stand {
+            font-family: $mont;
+            font-size: 20px;
+            padding: 0.2rem 0.4rem;
+            color: white;
+            height: 40px;
+
+            input {
+                border: none;
+                font-size: 20px;
+                background: #2693d3;
+                border-bottom: solid 1px #ffffff;
+                color: #ffffff;
+                font-family: $mont;
+            }
+
+            span {
+                font-family: $mont;
+                font-size: 20px;
+                color: white;
+                height: 40px;
+            }
+        }
+
+        .btn_add {
+            cursor: pointer;
+            font-family: $mont;
+            padding: 0.2rem;
+            color: #ffffff;
+            width: fit-content;
+
+            &:hover {
+                text-decoration: underline;
+                text-decoration-style: dotted;
+                text-decoration-skip-ink: none;
+            }
+        }
+
+        .task {
+            width: 300px;
+            cursor: default;
+            display: flex;
+            align-items: center;
+            background: #ffffff;
+            position: relative;
+
+            .checkbox {
+                padding: 0.4rem;
+                width: 2rem;
+            }
+
+            .subject {
+                width: calc(100% - 2.4rem);
+                cursor: pointer;
+
+                .caption {
+                    background: #297d3b;
+                    padding: 0.5rem 1rem;
+                    font-family: $mont;
+                    color: #ffffff;
+                }
+
+                .description {
+                    min-height: 40px;
+                    padding: 0.5rem 1rem;
+                    border-bottom: solid 1px #297d3b;
+                    font-family: $robo;
+                    white-space: break-spaces;
+                }
+
+                .footer {
+                    display: flex;
+                    padding: 0.5rem 1rem;
+                    gap: 1rem;
+                    justify-content: space-between;
+                    font-family: $robo;
+
+                    div {
+                        width: 27%;
+                        text-align: end;
+                    }
+                }
+            }
+
+            .remove {
+
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                display: flex;
+                align-items: center;
+                width: 42px;
+                justify-content: flex-end;
+                transition: 0.1s;
+
+                &:hover {
+                    background: #e13838b3;
+
+                    img {
+                        width: 42px;
+                    }
+                }
+
+                img {
+                    cursor: pointer;
+                    width: 0px;
+                }
+            }
+        }
+    }
+}
+
+.form {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #dbdbdb17;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
